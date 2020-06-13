@@ -1,0 +1,21 @@
+Comando para start do servidor php na porta 8888 tendo como inicio o arquivo index.php no diretório public
+    # php -S localhost:8888 -t public
+
+
+Este template usa functions, não usa OO
+
+
+as "rota" são pasadas como parâmetro na url e tratadas na função load().
+
+
+# composer dump-autoload -o  -> este é para fazer o autoload novamente, deve ser executado sempre q fizer uma alteração no arquivo composer.json
+
+
+instalar o phpmailer
+# composer require
+  - phpmailer
+  - nr 1
+
+
+outra forma 
+# composer require phpmailer/phpmailer

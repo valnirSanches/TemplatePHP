@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "files":[
+            "app/function/custom.php",
+            "app/function/pages.php",
+            "app/function/validate.php",
+            "app/function/flash.php",
+            "app/function/email.php",
+            "app/function/database.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
